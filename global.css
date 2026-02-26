@@ -1,0 +1,4 @@
+/* Gradient heading style for the project */
+.heading-gradient {
+  @apply bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent;
+}
