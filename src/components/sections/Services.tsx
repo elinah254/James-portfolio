@@ -1,5 +1,6 @@
 import { 
-  Code, Database, Server, GitBranch, } from "lucide-react";
+     Globe, BookIcon, BookOpen, Activity,
+   } from "lucide-react";
 import type React from "react";
 
 interface Service {
@@ -17,7 +18,7 @@ const Services: React.FC = () => {
       title: "8-4-4 Kenyan Curriculum",
       description:
         "I am well conversant with the 8-4-4 system with more than three years of experience.",
-      icon: <Code className="w-8 h-8" />,
+      icon: <BookOpen className="w-8 h-8" />,
       features: [
         "Good classroom management",
         "Student-centered teaching strategies",
@@ -30,7 +31,7 @@ const Services: React.FC = () => {
       title: "Competence based Education",
       description:
         "I have experience in teaching Competence Based Education for over three years.",
-      icon: <Server className="w-8 h-8" />,
+      icon: <BookIcon className="w-8 h-8" />,
       features: [
         "Student-centered teaching strategies",
         "ICT Intergration in the classroom",
@@ -43,7 +44,7 @@ const Services: React.FC = () => {
       title: "International Curriculum",
       description:
         "Well conversant with the International British Curriculum Edexcel and Cambridge",
-      icon: <Database className="w-8 h-8" />,
+      icon: <Globe className="w-8 h-8" />,
       features: [
         "Student-centered teaching strategies",
         "ICT Intergration in the classroom",
@@ -56,7 +57,7 @@ const Services: React.FC = () => {
       title: "Virtual Assistance",
       description:
         "Efficient collaboration and project management through Git workflows and best practices.",
-      icon: <GitBranch className="w-8 h-8" />,
+      icon: <Activity className="w-8 h-8" />,
       features: [
         "GitHub / GitLab",
         "Branching Strategies",

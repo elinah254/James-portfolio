@@ -1,4 +1,4 @@
-import {  Linkedin, Mail } from "lucide-react";
+import {  Linkedin,  Mail } from "lucide-react";
 import React, { useState } from "react";
 
 const Hero: React.FC = () => {
@@ -71,6 +71,11 @@ const Hero: React.FC = () => {
 								onClick={() => scrollToSection("experience")}
 								className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105">
 								View My Experience
+							</button>
+							<button
+								onClick={() => scrollToSection("")}
+								className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105">
+								View My Resume
 							</button>
 							<button
 								onClick={() => scrollToSection("contact")}

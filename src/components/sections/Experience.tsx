@@ -18,7 +18,7 @@ const Experience: React.FC = () => {
       description:
         "Prepared learners for IGCSE examinations through differentiated instruction, text analysis, and ICT-integrated lessons that improved student performance and confidence.",
       subjects: ["English Literature", "ICT", "IGCSE Curriculum", "Exam Prep"],
-      imageUrl: "/images/teaching2.jpg",
+      imageUrl: "/images/IGCSE.jpg",
       level: "IGCSE",
     },
 
@@ -28,7 +28,7 @@ const Experience: React.FC = () => {
       description:
         "Delivered competency-based lessons using learner-centered approaches, guided students in project-based learning, and integrated formative assessment to enhance engagement and understanding.",
       subjects: ["English Literature", "Social Studies", "CBE", "Lesson Planning"],
-      imageUrl: "/images/teaching1.jpg",
+      imageUrl: "/images/CBE.png",
       level: "Junior Secondary",
     },
    
@@ -55,7 +55,7 @@ const Experience: React.FC = () => {
       description:
         "Delivered 844 curriculum lessons integrating English Literature, Computer Science, and Life Skills. Focused on learner-centered activities, problem-solving, and skill-based formative assessment.",
       subjects: ["English Literature", "Computer Science", "Life Skills", "Kiswahili"],
-      imageUrl: "/images/teaching4.jpg",
+      imageUrl: "/images/844.jpg",
       level: "844 Program",
     },
   ];
