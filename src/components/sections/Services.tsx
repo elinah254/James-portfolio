@@ -1,5 +1,5 @@
 import { 
-  Code, Database, Server, GitBranch, Cloud, Palette } from "lucide-react";
+  Code, Database, Server, GitBranch, } from "lucide-react";
 import type React from "react";
 
 interface Service {
