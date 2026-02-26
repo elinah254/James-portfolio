@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import {  Linkedin, Mail } from "lucide-react";
 import React, { useState } from "react";
 
 const Hero: React.FC = () => {
@@ -68,9 +68,9 @@ const Hero: React.FC = () => {
 
 						<div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
 							<button
-								onClick={() => scrollToSection("projects")}
+								onClick={() => scrollToSection("experience")}
 								className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105">
-								View My Work
+								View My Experience
 							</button>
 							<button
 								onClick={() => scrollToSection("contact")}
@@ -80,11 +80,11 @@ const Hero: React.FC = () => {
 						</div>
 
 						<div className="flex justify-center space-x-6">
-							<a
+							{/* <a
 								// href="https://github.com/elinah254"
 								className="text-slate-400 hover:text-white transition-colors duration-200">
 								<Github className="w-6 h-6" />
-							</a>
+							</a> */}
 							<a
 								 href="https://www.linkedin.com/in/owino-samwel/"
 								className="text-slate-400 hover:text-white transition-colors duration-200">

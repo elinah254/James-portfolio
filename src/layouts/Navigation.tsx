@@ -19,7 +19,7 @@ const Navigation: React.FC = () => {
 				<div className="container mx-auto px-5 py-2">
 					<div className="flex items-center justify-between">
 						<div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover: cursor-pointer">
-							Elinah
+							Samwel James
 						</div>
 
 						{/* Desktop Menu */}
@@ -28,8 +28,10 @@ const Navigation: React.FC = () => {
 								"home",
 								"about",
 								"services",
-								"projects",
-								"contact",
+								// "projects",
+								"experience",
+		                         "contact",
+				
 							].map((item) => (
 								<button
 									key={item}
@@ -76,7 +78,8 @@ const Navigation: React.FC = () => {
 								"home",
 								"about",
 								"services",
-								"projects",
+								// "projects",
+								"experience",
 								"contact",
 							].map((item) => (
 								<button
